@@ -40,7 +40,7 @@ input.addEventListener(
           countryInfo.innerHTML = `
                 <div class="country-header">
                     <img class="flag" src=${country.flags.svg} alt="${country.name.official}"/>
-                    <h1 class="country-name">${country.name.official}</h1>
+                    <span class="country-name">${country.name.official}</span>
                 </div>
                 <ul>
                     <li class="country-list-item" >
