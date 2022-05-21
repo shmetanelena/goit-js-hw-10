@@ -43,17 +43,14 @@ input.addEventListener(
                     <h1 class="country-name">${country.name.official}</h1>
                 </div>
                 <ul>
-                    <li class="country-list-item">
-                        <span class="country-attibute">Capital:</span>
-                        ${country.capital[0]}
+                    <li class="country-list-item" >
+                        <b>Capital</b>: ${country.capital[0]}
+                    </li>
+                    <li class="country-list-item" >
+                        <b>Population</b>: ${country.population}</span>
                     </li>
                     <li class="country-list-item">
-                        <span class="country-attibute">Population:</span>
-                        ${country.population}</span>
-                    </li>
-                    <li class="country-list-item">
-                        <span class="country-attibute">Languages:</span>
-                        ${Object.values(country.languages).join(', ')}
+                        <b>Languages:</b>: ${Object.values(country.languages).join(', ')}
                     </li>
                 </ul>`;
         }
