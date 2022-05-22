@@ -44,7 +44,7 @@ input.addEventListener(
                 </div>
                 <ul>
                     <li class="country-list-item" >
-                        <b>Capital</b>: ${country.capital[0]}
+                        <b>Capital</b>: ${country.capital.join(', ')}
                     </li>
                     <li class="country-list-item" >
                         <b>Population</b>: ${country.population}</span>
